@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-//this is the home controller
+//this is the home controllerrrr
 
 @Controller
 public class HomeController {
