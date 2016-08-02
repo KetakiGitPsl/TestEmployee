@@ -11,6 +11,9 @@
  <mvc:default-servlet-handler/>
 
 
+<bean class="org.springframework.jdbc.core.JdbcTemplate" id="template">
+	<property name="dataSource" ref="ds"/>
+</bean>
 
 <bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" id="ds">
 	<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
