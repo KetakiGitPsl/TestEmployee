@@ -15,7 +15,8 @@
 
 
 	<bean class="com.psl.Employee.service.EmployeeServiceImpl" id="service"/> 
-	<bean class="com.psl.mytest.EmployeeDAOStub" id="dao"></bean>
+	<bean class="com.psl.mytest.EmployeeDAOStub" id="dao"></bean> 
+	<!-- <bean class="com.psl.Employee.dao.EmployeeDAOImpl" id="dao"></bean> -->
 	<bean class="org.springframework.jdbc.core.JdbcTemplate" id="template">
 		<property name="dataSource" ref="ds" />
 	</bean>
