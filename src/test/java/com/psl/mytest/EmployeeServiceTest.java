@@ -40,8 +40,18 @@ public class EmployeeServiceTest {
 			System.out.println("~" + employee.getName());
 		}
 		System.out.println("size =  " + list.size());
-		Assert.assertEquals(2, list.size()); 
+		Assert.assertEquals(4, list.size()); 
 		
+		
+	}
+	
+	@Test
+	public void getOneEmployeesTest(){
+		List<Employee> list = service.getAllEmployees();
+		for (Employee employee : list) {
+			if(employee.getId() == 2)
+				Assert.assertEquals("John", employee.getName()); 
+		}
 		
 	}
 	
