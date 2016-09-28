@@ -35,11 +35,11 @@ public class EmployeeServiceTest {
 	@Test
 	public void getAllEmployeesTest(){
 		System.out.println("Here");
-		List<Employee> list = service.getAllEmployees();
-		for (Employee employee : list) {
-			System.out.println("~" + employee.getName());
-		}
-		System.out.println("size =  " + list.size());
+	//	List<Employee> list = service.getAllEmployees();
+//		for (Employee employee : list) {
+//			System.out.println("~" + employee.getName());
+//		}
+		//System.out.println("size =  " + list.size());
 		// Assert.assertEquals(1, list.size()); 
 		      //comment   
 		              // adding comment 
@@ -52,11 +52,11 @@ public class EmployeeServiceTest {
 	
 	@Test
 	public void getOneEmployeesTest(){
-		List<Employee> list = service.getAllEmployees();
-		for (Employee employee : list) {
+	//	List<Employee> list = service.getAllEmployees();
+//		for (Employee employee : list) {
 		//	if(employee.getId() == 2)
 		//		Assert.assertEquals("John", employee.getName()); 
-		}
+//		}
 		
 	}
 	
