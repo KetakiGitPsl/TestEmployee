@@ -17,7 +17,7 @@ import com.psl.Employee.service.IEmployeeService;
 
 @Controller
 public class HomeController {
-	
+	  
 	@Autowired
 	private IEmployeeService service;
 
