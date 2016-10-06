@@ -18,7 +18,7 @@ import com.psl.Employee.service.IEmployeeService;
 @Controller
 public class HomeController {
 	  
-	@Autowired         //
+	@Autowired         //  
 	private IEmployeeService service;
 
 	@RequestMapping(value="/")
