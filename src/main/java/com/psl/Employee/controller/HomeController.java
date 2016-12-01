@@ -24,10 +24,10 @@ public class HomeController {
 	@RequestMapping(value="/")
 	public ModelAndView test(HttpServletResponse response) throws IOException{
 		System.out.println("this is home controller     ");
-		List<Employee> list = service.getAllEmployees();
+		//List<Employee> list = service.getAllEmployees();
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("home");
-		mav.addObject("list", list);
+		//mav.addObject("list", list);
 		return mav;
 	}
 }
