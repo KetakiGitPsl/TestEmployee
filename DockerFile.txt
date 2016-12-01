@@ -1,4 +1,0 @@
-FROM openjdk
-
-COPY target/Employee0.0.1-SNAPSHOT.war /opt/Employee0.0.1-SNAPSHOT.war
-
